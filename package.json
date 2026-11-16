@@ -1,0 +1,15 @@
+{
+  "name": "next-forwarded-action-bracket-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "next build",
+    "start": "next start",
+    "start:strict": "node strict-server.mjs"
+  },
+  "dependencies": {
+    "next": "16.5.0-canary.52",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  }
+}
